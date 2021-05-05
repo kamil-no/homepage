@@ -1,4 +1,4 @@
-console.log("Witam wszystkich kursantów YouCode.pl!");
+console.log("Witam wszystkich kursantów YouCode.pl! Ten tekst jest już w repozytorim Git ");
 
 let changeColorButton = document.querySelector(".changeColorButton");
 let container = document.querySelector(".container");
