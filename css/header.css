@@ -1,0 +1,10 @@
+.header{
+    color: hsl(82, 39%, 30%);
+    background: rgb(178 199 151 / 35%);
+    padding: 30px;
+    text-align: center;
+    text-shadow: 1px 2px 5px #22222285;
+    text-transform: uppercase;
+    border-radius: 0px 0px 50px 50px;
+
+}

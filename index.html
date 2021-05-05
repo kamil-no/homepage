@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Autoprezentacja</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/jpg.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<body class="container">
+    <header class="header">
+        <h1> Kamil Nowak - strona o mnie </h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__list">
+                <a class="section--link" href="#aboutMe">Kim jestem</a>
+            </li>
+            <li class="navigation__list">
+                <a class="section--link" href="#education">Coś o edukacji</a>
+            </li>
+            <li class="navigation__list">
+                <a class="section--link" href="#forMe">Co robię dla siebie</a>
+            </li>
+            <li class="navigation__list">
+                <a class="section--link" href="#series">Ulubione seriale</a>
+            </li>
+            <li class="navigation__list">
+                <a class="section--link" href="#goals">Cele na ten rok</a>
+            </li>
+        </ul>
+
+    </nav>
+    <button class="changeColorButton button">Włącz <span class="themeName">janse</span> tło</button>
+
+    <section class="section sectionSpecial" id="aboutMe">
+        <h2 class="section__header">Kim jestem:</h2>
+        <p class="section__paragraph">Cześć wszystkim, jestem Kamil Nowak i mam 22 lata. Pochodzię z małej miejscowości
+            położonej niedaleko
+            Bieszczad. Jestem synem, bratem, wujkie - zwykłum chłopakiem z ogromnymi marzeniami i wiarą w swoje
+            możliwości. Często mówi się teraz, że "marzenia się nie spełniają, lecz marzenia się spełnia", więc jestem
+            tutaj właśnie po to - by zawalczyć o swoją przyszłość i o marzenia. </p>
+
+    </section>
+
+    <p>
+        <img class=" jpg" src="https://i.imgur.com/etJjUBj.jpeg" alt="Kamil Nowak">
+    </p>
+
+    <section class="section sectionSpecial" id="education">
+        <h2 class="section__header">Coś o edukacji:</h2>
+        <p class="section__paragraph">Uczęszczałęm do <span class="section--special">Zespołu Szkół Zawodowych w
+                Dynowi</span>
+            i
+            ukończyłem je z tytułem
+            technika
+            pojazdów samochodowych (czyli zdałem wszystkie egzaminy zawodowe 😁). W czasie szkoły średniej byłem
+            3-krotnym
+            stypendystą z programu stypendialnego powiatu rzeszowskiego i 2-krotnym stypendystą z programu
+            stypendialnego
+            dla uczniów szczególnie uzdolnionych. </p>
+        <p class="section__paragraph">Na chwilę obecną jestem studentem II roku studiów niestacjonarnych,
+            kierunkek - administracja, specjalizacja - finanse i rchunkowość w <span class="section--special">Wyższej
+                Szkole
+                Prawa
+                i
+                Administracji w Rzeszowie</span>.</p>
+    </section>
+    <section class="section" id="forMe">
+        <h2 class="section__header">Co robię dla siebie: </h2>
+        <ul>
+            <li class="section__listitem">Od 4 miesięcy uczę się regularnie języka angielskiego. Mój język angielski nie
+                jest
+                jeszcze na wysokim
+                poziomiem, ale jestem bardzo zadowolony z postępów.</li>
+            <li class="section__listitem">Zmieniłem swoje nawyki żywieniowe, oraz poprawiłem
+                aktywność fizyczną, co pomogło mi <b>zrzucić 12 kg.</b></li>
+            <li class="section__listitem">Uwielbiam czytać wszelkiego rodzaju książki - od
+                fantastyki, kryminałów, przez książki histryczne, książki religijne (dotyczących różnych wierzeń), po
+                poezję
+            </li>
+            <li class="section__listitem">4. Trochę gram na gitarze i śpiewam, ale wirtuozem nie jestem.. Po prostu
+                lubię czasami
+                uderzyć w wiosło
+                i
+                zawyć do księżyca 😁
+            </li>
+        </ul>
+    </section>
+    <section id="series">
+        <h2 class="section__header">Ulubione seriale</h2>
+        <div class="containerTable">
+            <table class="table">
+                <caption>Moje ulybione seriale</caption>
+                <thead>
+                    <tr class="table__row">
+                        <th class="tableCall table__header" scope="col">Tytuł</th>
+                        <th class="tableCall table__header" scope="col">Liczba sezonów</th>
+                        <th class="tableCall table__header" scope="col">Reżyseria</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table__row">
+                        <th class="tableCall table__header" scope="row">Gra o tron</th>
+                        <td class="tableCall">8</td>
+                        <td class="tableCall"> D.B. Weiss, Brian Kirk, Alan Taylor, Neil Marshall</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="tableCall table__header" scope="row">WATAHA</th>
+                        <td class="tableCall">3</td>
+                        <td class="tableCall"> Wiktor Piątkowski, Kamil Chomiuk, Krzysztof Maćkowski</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="tableCall table__header" scope="row">Wikingowie</th>
+                        <td class="tableCall">5</td>
+                        <td class="tableCall">Michael Hirst</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </section>
+
+
+    <section class=" section" id="goals">
+        <h2 class="section__header"> Cele na ten rok:</h2>
+        <ul>
+            <li class="section__listitem">Muszę opanować w dobrym stopniu język angielski.</li>
+            <li class="section__listitem">Chcę ukończyć kurs <i>fronter developer</i>.</li>
+            <li class="section__listitem">Znaleść pracę w zawodzie.</li>
+            <li class="section__listitem">Chcę odwiedzić Włochy. </li>
+        </ul>
+
+    </section>
+    <footer class="footer">
+        <p>Kamil Nowak mail:nkamil700@gmial.com tel.534361782
+        </p>
+    </footer>
+
+
+
+</body>
+
+
+
+
+
+</html>

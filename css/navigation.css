@@ -1,0 +1,21 @@
+.navigation__list {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 4px solid;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.navigation {
+    list-style-type: none;
+    padding-left: 10px;
+    color: rgb(178 199 151 / 35%);
+    text-decoration: none;
+    text-align: center;
+}

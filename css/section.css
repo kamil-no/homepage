@@ -1,0 +1,41 @@
+.section {
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+.sectionSpecial {
+    box-shadow: 10px -10px 25px 0px #9DA5A2;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.section__header {
+    color: hsl(82, 39%, 30%);
+    text-align: center;
+    text-shadow: 1px 2px 5px #22222285
+}
+
+.section__paragraph {
+    color: #222;
+    margin: 20px;
+    padding: 20px;
+}
+
+.section--special {
+    color: hsl(90, 70%, 37%);
+}
+
+.section__listitem {
+    margin: 20px;
+    padding: 5px;
+}
+
+.section--link {
+    color: #222;
+    text-decoration: none;
+}
+
+.list {
+    text-align: left;
+}

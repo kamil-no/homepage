@@ -1,0 +1,25 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.tableCall {
+    border: 1px solid rgb(37, 32, 32);
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__header {
+    background: rgb(35, 58, 12);
+    color: white;
+}
+
+.table__row:nth-child(even) {
+    background: rgb(246, 250, 246);
+}
+
+.containerTable {
+    overflow-x: auto;
+}

@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit
+}
+
+.container {
+    color: #222;
+    background: hsl(0deg 1% 68% / 58%);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.wheatBackground {
+    background: hsla(60, 23%, 97%, 0.925);
+}
